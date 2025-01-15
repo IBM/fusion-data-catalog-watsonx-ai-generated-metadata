@@ -2,7 +2,7 @@
 
 Generative AI has high utility for generating metadata for both structured and unstructured data and is relevant in the storage domain where data discoverability drives the value of data across the enterprise including for downstream AI projects.
 
-This repository demonstrates how to extend IBM Fusion with the Fusion SDK to create a IBM Fusion Application that utilises AI to generate metadata. We create a metadata policy in IBM Fusion to filter images with missing metadata tags and publis the image reference to a Kafka topic for the IBM Fusion Application to consume. We use the watson machine learning SDK (watsonx.ai API) with a basic prompt to generate metadata tags associated with the image that catalogued in IBM Fusion. We also integrate IBM Knowledge Catalog for enterprise wide data cataloging and watsonx.data for querying and to enable downstream AI building.
+This repository demonstrates how to extend IBM Fusion with the Fusion SDK to create a IBM Fusion Application that utilises AI to generate metadata. We create a metadata policy in IBM Fusion to filter images with missing metadata tags and publish the image reference to a Kafka topic for the IBM Fusion Application to consume. We use the watson machine learning SDK (watsonx.ai API) with a basic prompt to generate metadata tags associated with the image that catalogued in IBM Fusion. We also integrate IBM Knowledge Catalog for enterprise wide data cataloging and watsonx.data for querying and to enable downstream AI building.
 
 We deployed the IBM Fusion Application to OpenShift for a highly scalable, high-throughput data pipeline.
 
